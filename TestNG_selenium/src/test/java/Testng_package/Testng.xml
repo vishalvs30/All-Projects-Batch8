@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="ParallelSuite" parallel="classes" thread-count="1">
+    <test name="ParallelTestExecution">
+        <classes>
+            <class name="Testng_package.TestClass1"/>
+            <class name="Testng_package.TestClass1"/>
+            
+        </classes>
+    </test>
+</suite>
